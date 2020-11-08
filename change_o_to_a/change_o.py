@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import sys
+import time
 
 def change_o_to_a(str):
 
@@ -24,6 +25,7 @@ def change_o_to_a(str):
 
 user_string = "Dora"
 print(change_o_to_a(user_string))
+time.sleep(5)
 print(change_o_to_a("Hello word"))
 print(change_o_to_a(12345))
 print(change_o_to_a(0))
